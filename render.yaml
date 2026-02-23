@@ -1,0 +1,10 @@
+# Render Blueprint: фронтенд + @hexlet/chat-server на одном сервисе
+# https://docs.render.com/blueprint-spec
+
+services:
+  - type: web
+    runtime: node
+    name: hexlet-chat
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
