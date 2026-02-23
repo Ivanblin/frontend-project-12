@@ -1,11 +1,11 @@
 import { useSelector, useDispatch } from 'react-redux'
 import useActiveChannel from '../../customHooks/useActiveChannel'
-import { activeChannelSelector } from '../../slices/activeChannelSlice'
+import { activeChannelSelector } from '../../store/slices/activeChannelSlice'
 import ChannelTitle from './ChannelTitle'
 import Loading from '../CommonComponentsForPages/Loading'
 import ChannelItem from './ChannelItem'
 import DropdownButton from './DropdownButton'
-import { openModal, closeModal } from '../../slices/modalSlice'
+import { openModal, closeModal } from '../../store/slices/modalSlice'
 import getModal from '../ModalsWindows/index'
 
 const renderChannels = (channel, isRemovableChannel, handleOpenModal) => (

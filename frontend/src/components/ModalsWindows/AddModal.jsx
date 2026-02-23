@@ -7,7 +7,7 @@ import { toast } from 'react-toastify'
 import filter from 'leo-profanity'
 import { useAddChannelMutation, useGetChannelsQuery } from '../../api/chatApi'
 import { channelNamesShema } from '../../registrationRequirement/registrationRequirement'
-import { setActiveChannel } from '../../slices/activeChannelSlice'
+import { setActiveChannel } from '../../store/slices/activeChannelSlice'
 
 const AddModal = ({ closeModal }) => {
   const { t } = useTranslation()

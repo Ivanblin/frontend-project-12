@@ -1,7 +1,7 @@
 import { Dropdown, ButtonGroup } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
 import { useTranslation } from 'react-i18next'
-import { activeChannelSelector } from '../../slices/activeChannelSlice'
+import { activeChannelSelector } from '../../store/slices/activeChannelSlice'
 import useActiveChannel from '../../customHooks/useActiveChannel'
 import ChannelItem from './ChannelItem'
 

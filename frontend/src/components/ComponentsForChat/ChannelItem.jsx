@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { setActiveChannel, activeChannelSelector } from '../../slices/activeChannelSlice'
+import { setActiveChannel, activeChannelSelector } from '../../store/slices/activeChannelSlice'
 import useActiveChannel from '../../customHooks/useActiveChannel'
 
 const ChannelItem = ({ channel }) => {
